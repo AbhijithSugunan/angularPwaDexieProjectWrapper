@@ -1,0 +1,20 @@
+.item-containter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10em;
+
+  button {
+    margin-left: 10px;
+  }
+}
+
+.results-container {
+  width: 200px;
+  margin-left: calc(50% - 100px);
+
+  .result {
+    overflow-wrap: break-word;
+    border: 1px solid grey;
+  }
+}
